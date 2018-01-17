@@ -27,7 +27,7 @@ IBM Watson チャットボット開発体験ハンズオン・セミナー2018�
   
 - Dialogで挨拶ノードの作成  
 **#挨拶**
-<? Input_text ?>。 いらっしゃいませ！  
+\<? Input_text ?>。 いらっしゃいませ！  
   
 ## 2. IntentとEntityにより質問を理解する  
   
@@ -52,28 +52,28 @@ IBM Watson チャットボット開発体験ハンズオン・セミナー2018�
 何円
 いくら
 
-- 営業時間Entityの作成
-**営業時間**
-  - 営業時間valueと同義語の作成
+- 営業時間Entityの作成  
+**営業時間**  
+  - 営業時間valueと同義語の作成  
   営業時間  
   受付時間  
   集荷時間  
   対応時間  
   
-  - 休日valueと同義語の作成
+  - 休日valueと同義語の作成  
   休日  
   お休み  
   休憩  
   休業  
   
-  - 何時valueと同義語の作成
+  - 何時valueと同義語の作成  
   何時  
   いつ  
   いつまで  
   何時まで  
   
-- 受付ボットEntityの作成
-**受付ボット**
+- 受付ボットEntityの作成  
+**受付ボット**  
 ボット  
 bot  
 ワトソン  
@@ -115,7 +115,7 @@ AI
 >あなたは誰ですか  
   
 - 確信度の表示
-確信度=<? intents[0].confidence ?>  
+確信度=\<? intents[0].confidence ?>  
   
   
 ## 3. 注文を受け付ける
@@ -150,7 +150,7 @@ AI
   お荷物の数は？  
   
   - Contextがすべて揃ったら
-  <? $date.reformatDateTime('M月d日') ?> の <? $time.reformatDateTime('k時')  ?> にお荷物 <? $number ?> 点を引き取りに伺います。  
+  \<? $date.reformatDateTime('M月d日') ?> の <? $time.reformatDateTime('k時')  ?> にお荷物 <? $number ?> 点を引き取りに伺います。  
   
   
 [質問例]  
@@ -168,7 +168,7 @@ AI
   
   
 - Slots応答内容改善  
-<? $date.reformatDateTime('M月d日') ?>の集荷ですね  
+\<? $date.reformatDateTime('M月d日') ?>の集荷ですね  
 集荷のご希望日を「何月何日」と指定してください。  
   
 ご希望の時間は<? $time.reformatDateTime('k時') ?>ですね。  
@@ -224,7 +224,7 @@ true
   
 - @mail Entityの作成  
 **mail**    
-\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b  
+\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b  
   
   
 - Dialogで注文確定ノードの作成  
