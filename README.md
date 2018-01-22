@@ -149,7 +149,7 @@ AI
     お荷物の数は？  
   
   - Contextがすべて揃ったら  
-  \<? $date.reformatDateTime('M月d日') ?> の <? $time.reformatDateTime('k時')  ?> にお荷物 <? $number ?> 点を引き取りに伺います。  
+  \<? $date.reformatDateTime('M月d日') ?> の \<? $time.reformatDateTime('k時')  ?> にお荷物 \<? $number ?> 点を引き取りに伺います。  
   
   
 [質問例]  
@@ -187,7 +187,7 @@ AI
 >明日の午後8時に発送したい  
   
 - Contextの評価  
-$time.before('08:00:00') || $time.after('22:00:00')
+$time.before('08:00:00') || $time.after('22:00:00')  
 申し訳ありません。集荷時刻は8時から22時の間でご指定ください。   
   
 [質問例]  
