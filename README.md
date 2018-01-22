@@ -237,8 +237,8 @@ $time.before('08:00:00') || $time.after('22:00:00')
   
   - json editorで追記  
   .literal  
-  ,
-  "order": true
+  ,  
+  "order": true  
   
 [質問例]  
 >明日の12時にダンボール3箱送りたい  
