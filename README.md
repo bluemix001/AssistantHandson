@@ -170,7 +170,7 @@ AI
 \<? $date.reformatDateTime('M月d日') ?>の集荷ですね  
 集荷のご希望日を「何月何日」と指定してください。  
   
-ご希望の時間は<? $time.reformatDateTime('k時') ?>ですね。  
+ご希望の時間は\<? $time.reformatDateTime('k時') ?>ですね。  
 集荷のお時間を「何時」と指定してください。  
   
 荷物は \<? $number ?>点ですね。  
