@@ -193,7 +193,7 @@ https://cloud.ibm.com 　
 - 注文に必要な情報(Entity)が取得出来たかどうかを確認します。見つかれば復唱し、見つからなければ入力の形式を案内します。  
 
 **Slot 1 (日付)**  
-  <? $date.reformatDateTime('M月d日') ?>の集荷ですね  
+  &lt;? $date.reformatDateTime('M月d日') ?&gt;の集荷ですね  
   集荷のご希望日を「何月何日」と指定してください。  
 **Slot 2 (時刻)**  
   ご希望の時間は<? $time.reformatDateTime('k時') ?>ですね。  
