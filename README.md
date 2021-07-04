@@ -7,6 +7,7 @@ IBM Watson チャットボット開発体験ハンズオン・セミナーの補
 ## 1. チャットボット開発環境の準備
 
 - IBM Cloudにログインして、Watson Assistantサービスを作成
+
 https://cloud.ibm.com 
 
 
