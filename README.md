@@ -211,7 +211,7 @@ https://cloud.ibm.com 　
 >明日の午後八時に出荷したい  
 
 - コンテキスト変数の値を確認し、営業時間外であれば時間の再指定を促します  
-- 
+ 
 **If assistant recognizes**  
   $time < "08:00:00" ||   $time > "22:00:00"  
 **If assistant recognizes**  
